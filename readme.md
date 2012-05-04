@@ -2,6 +2,9 @@
 
 The idea here is to make it easy to enable and disable xhprof profiling in a li3 app.
 
+Note: the code as is only stores data to the database.  There is no front-end code for
+viewing results, yet.  Feel free to contribute to that!
+
 Runs will be stored in a `ProfileRuns` model although that's configurable.
 
 I don't think this will work for MySQL unless the MySQL data source in Lithium
