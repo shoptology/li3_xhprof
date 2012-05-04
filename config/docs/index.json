@@ -1,5 +1,5 @@
 {
 	"category": "libraries",
 	"title":    "li3_xhprof",
-	"description": "The `li3_xhprot` library has similar goals as XHGui, but uses a Lithium model to store runs and works with a document database store."
+	"description": "The `li3_xhprof` library has similar goals as XHGui, but uses a Lithium model to store runs and works with a document database store."
 }

@@ -23,7 +23,7 @@ $config = Libraries::get('li3_xhprof');
 $config += array(
 	'collection' => true,
 	'connection' => 'default',
-	'namespace'  => basename(Libraries::get(true, 'path')) // li3 doesn't let us get the name :(
+	'namespace'  => basename(Libraries::get(true, 'path')), // li3 doesn't let us get the name :(
 	'sample'     => false
 );
 
