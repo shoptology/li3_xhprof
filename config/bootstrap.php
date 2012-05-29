@@ -1,8 +1,8 @@
 <?php
 
 if (!extension_loaded('xhprof')) {
-	$message = 'Warning! Unable to profile run, xhprof extension not loaded';
-	trigger_error($message, E_WARNING);
+	//$message = 'Warning! Unable to profile run, xhprof extension not loaded';
+	//trigger_error($message, E_USER_WARNING);
 	return false;
 }
 
